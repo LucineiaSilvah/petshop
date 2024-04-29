@@ -13,3 +13,17 @@
   width: 40%;
   font-size: 24px;
 }
+
+@media screen and (min-width:320px) and (max-width:720px) {
+  .sobre{
+    flex-direction: column;
+  }
+  .sobre img, .sobre p{
+    width: 90%;
+  }
+.sobre p{
+  text-align: justify;
+  line-height: 60px;
+}
+  
+  }

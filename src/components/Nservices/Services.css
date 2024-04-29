@@ -1,9 +1,17 @@
 .servicos{
+ 
  display: flex;
 width: 100%;
 justify-content: space-around;
-padding: 200px 0;
+padding: 150px 0;
 }
 h2{
   margin: 50px;
+}
+@media screen and (min-width:320px) and (max-width:720px) {
+.servicos{
+  flex-direction: column;
+  align-items: center;
+  
+}
 }

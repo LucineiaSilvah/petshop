@@ -6,13 +6,36 @@
   padding: 300px 0;
   background
   : linear-gradient(45deg,#E3CBC6,#C3B9B7);
+ 
 }
 .boasVindas__texto{
   width: 50%;
-  font-size: 32px;
+
 }
+.boasVindas__texto p{
+  font-size: 24px;
+}
+
 .boasVindas__img{
   width: 600px;
   height: 500px;
   background:  url('../../img/cat-love.png') no-repeat center / cover;
 }
+
+
+@media screen and (min-width:320px) and (max-width:720px) {
+  .boasVindas{
+    padding: 30px;
+    flex-direction: column;
+  }
+  .boasVindas__img{
+    width: 100%;
+  }
+ .boasVindas__texto{
+  width: 100%;
+  font-size: large;
+ }
+ .boasVindas__texto h2{
+ 
+ }
+  }

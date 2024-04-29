@@ -6,8 +6,8 @@ function Welcome(){
   <div>
     <section className="boasVindas">
       <div className="boasVindas__texto">
-        <h2>Bem Vindos ao Só Amores Petshop</h2>
-        <p>Aqui seu pet é tratado com o amor que merece</p>
+        <h2>Bem Vindos</h2>
+        <p>Aqui no Só Amores Petshop seu pet é tratado com o amor que merece</p>
        
       </div>
       <div className="boasVindas__img">
