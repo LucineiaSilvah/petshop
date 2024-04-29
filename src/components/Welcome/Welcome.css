@@ -1,0 +1,18 @@
+.boasVindas{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 300px 0;
+  background
+  : linear-gradient(45deg,#E3CBC6,#C3B9B7);
+}
+.boasVindas__texto{
+  width: 50%;
+  font-size: 32px;
+}
+.boasVindas__img{
+  width: 600px;
+  height: 500px;
+  background:  url('../../img/cat-love.png') no-repeat center / cover;
+}

@@ -1,0 +1,28 @@
+
+.card-s{
+ width: 450px;
+ height: 600px;
+ border: 1px solid #EB889D;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 10px;
+ padding: 5px;
+ font-size: 24px;
+}
+.card-s img{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px  10px 0 0 ;
+}
+.card-s button{
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background: #EB889D;
+  color: #fff;
+ font-size: 20px;
+ border: none;
+ outline: none;
+}

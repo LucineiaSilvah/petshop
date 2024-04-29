@@ -1,0 +1,9 @@
+.servicos{
+ display: flex;
+width: 100%;
+justify-content: space-around;
+padding: 200px 0;
+}
+h2{
+  margin: 50px;
+}
