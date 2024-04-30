@@ -27,7 +27,7 @@
  outline: none;
 }
 
-@media screen and (min-width:320px) and (max-width:720px) {
+@media screen and (min-width:0) and (max-width:720px) {
   .card-s{
     width: 90%;
     margin: 0 auto;
