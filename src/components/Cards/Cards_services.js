@@ -7,7 +7,7 @@ function CardServices(prop){
      <div className="card-s">
       
        <img src={prop.img} alt=""/>
-        <p>Um banho de carinho para os nossos peludos: onde água e amor se encontram para deixar nossos pets ainda mais radiantes</p>
+        <p>{prop.descricao}</p>
        <button type="">Contratar</button>
      </div>
    </div>

@@ -10,10 +10,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fff;
   background-image: url('./img/paw.png');
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
