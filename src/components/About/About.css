@@ -16,14 +16,18 @@
 
 @media screen and (min-width:0) and (max-width:720px) {
   .sobre{
+  
     flex-direction: column;
+    gap: 50px;
   }
   .sobre img, .sobre p{
     width: 90%;
   }
 .sobre p{
+  align-items: center;
   text-align: justify;
-  line-height: 60px;
+  line-height: 30px;
+  font-size: 16px;
 }
   
   }

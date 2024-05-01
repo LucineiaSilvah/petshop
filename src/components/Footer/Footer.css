@@ -4,3 +4,10 @@
   color: #fff;
   padding: 20px;
 }
+
+@media screen and (min-width:0) and (max-width:720px) {
+  .rodape{
+    font-size: 1rem;
+    
+  }
+  }

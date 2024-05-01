@@ -5,6 +5,8 @@
   height: 90px;
   display: flex;
   align-items: center;
+  
+  justify-content: space-between;
 }
 .cabecalho h1{
   margin-left: 10px;
@@ -12,3 +14,9 @@
 .cabecalho i{
   color: #fff;
 }
+
+@media screen and (min-width:0) and (max-width:720px) {
+ .cabecalho{
+  flex-direction: column;
+ }
+  }

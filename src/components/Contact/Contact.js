@@ -1,11 +1,13 @@
 import React from 'react';
 import './Contact.css';
 import contact from '../../img/contact.png';
+import Title from '../Title/Title';
+
 function Contact(){
   return (
    <div>
-       <h2>Contato</h2>
-     <section className="contato">
+     <Title texto="Contato" cor=""></Title>
+     <section className="contato" id='contact'>
    
         <form>
         

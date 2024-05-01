@@ -13,7 +13,9 @@ function App() {
        <Header></Header>
      
        <Welcome></Welcome>
-       <Services></Services>
+       <Services>
+    
+       </Services>
        <About></About>
        <Contact></Contact>
        <Footer></Footer>
