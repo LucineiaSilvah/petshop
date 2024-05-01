@@ -10,8 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fff;
   background-image: url('./img/paw.png');
-
+ 
 }
 
 
+.custom-cursor{
+  cursor: url('../src/img/cat-mouse.png'), auto;
+}
 

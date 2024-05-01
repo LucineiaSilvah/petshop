@@ -4,10 +4,20 @@
   color: #fff;
   padding: 20px;
 }
+.rodape a{
+  color: #f703ae;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+}
 
+.rodape a:visited{
+  color: #ce03f7;
+}
 @media screen and (min-width:0) and (max-width:720px) {
   .rodape{
     font-size: 1rem;
     
   }
+ 
   }

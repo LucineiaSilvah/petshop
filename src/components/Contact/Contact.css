@@ -53,6 +53,7 @@ align-self: flex-start;
  border: none;
  outline: none;
  margin: 30px 0;
+ cursor: pointer;
 }
 .contato button:hover{
   background: #efabba;
@@ -68,6 +69,7 @@ align-self: flex-start;
 }
 i{
   color: #EB889D;
+  cursor: pointer;
 }
 i:hover{
   scale: 1.3;

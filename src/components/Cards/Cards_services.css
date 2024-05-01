@@ -28,6 +28,8 @@
  font-size: 20px;
  border: none;
  outline: none;
+ cursor: pointer;
+
 }
 .card-s button:hover{
   background: #efabba;
