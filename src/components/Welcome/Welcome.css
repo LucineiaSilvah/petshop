@@ -6,10 +6,13 @@
   padding: 300px 0;
   background
   : linear-gradient(45deg,#E3CBC6,#C3B9B7);
- 
+  color:#fff;
+ text-shadow: -2px 2px 2px #eb889d;
+ font-size: 2rem;
 }
+
 .boasVindas__texto{
-  width: 50%;
+  width: 40%;
 
 }
 .boasVindas__texto p{
@@ -17,7 +20,8 @@
 }
 
 .boasVindas__img{
-  width: 600px;
+ 
+  width:50%;
   height: 500px;
   background:  url('../../img/cat-love.png') no-repeat center / cover;
 }
@@ -35,7 +39,5 @@
   width: 100%;
   font-size: large;
  }
- .boasVindas__texto h2{
- 
- }
+
   }

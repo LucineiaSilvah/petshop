@@ -6,3 +6,9 @@
   display: flex;
   align-items: center;
 }
+.cabecalho h1{
+  margin-left: 10px;
+}
+.cabecalho i{
+  color: #fff;
+}

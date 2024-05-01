@@ -1,7 +1,10 @@
 
 .card-s{
  width: 350px;
+ min-width: 300px;
+ max-width: 500px;
  height: 600px;
+ background: #fff;
  border: 1px solid #EB889D;
  display: flex;
  flex-direction: column;
@@ -26,7 +29,9 @@
  border: none;
  outline: none;
 }
-
+.card-s button:hover{
+  background: #efabba;
+}
 @media screen and (min-width:0) and (max-width:720px) {
   .card-s{
     width: 90%;
