@@ -5,7 +5,7 @@
   height: 90px;
   display: flex;
   align-items: center;
-  
+  overflow: hidden;
   justify-content: space-between;
 }
 .cabecalho h1{
