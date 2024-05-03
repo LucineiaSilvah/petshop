@@ -1,10 +1,11 @@
 import React from "react";
 import './Cards_services.css';
 
+
 function CardServices(prop){
   return (
    <div>
-     <div className="card-s">
+     <div className="card-s" data-aos="fade-down">
       
        <img src={prop.img} alt=""/>
         <p>{prop.descricao}</p>
