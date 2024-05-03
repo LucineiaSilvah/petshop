@@ -33,7 +33,8 @@
     flex-direction: column;
   }
   .boasVindas__img{
-    width: 100%;
+    margin-top: 20px;
+    width: 100vw;
   }
  .boasVindas__texto{
   width: 100%;

@@ -23,6 +23,9 @@
   .sobre img, .sobre p{
     width: 90%;
   }
+  .sobre img{
+    width: 100vw;
+  }
 .sobre p{
   align-items: center;
   text-align: justify;
