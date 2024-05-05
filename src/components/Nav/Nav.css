@@ -1,29 +1,129 @@
-.nav-bar{
-  display: flex;
- 
+.Menu {
+  width: 60%;
+ display: flex;
+ justify-content: center;
+
+
 }
-.nav-bar ul{
+
+.list{
+  
+}
+.list .listItems{
+  padding: 0;
+  display: flex;
   list-style: none;
-  display: flex;
-  gap: 60px;
-  margin-right: 40px;
 }
-.nav-bar ul li a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-   cursor: pointer
+.list .listItems li{
+  margin: 30px;
+  padding: 10px;
+font-size: 1.8rem;
 }
-.nav-bar ul li a:hover{
-  color: #f8e2e6;
+.list .listItems li a{
+ color: #FFF;
+ text-decoration: none;
+ font-weight: 600;
 }
+
 
 @media screen and (min-width:0) and (max-width:720px) {
-  .nav-bar{
-   font-size: 1rem;
+  .Menu {
+    width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   position: absolute;
+    top: 40px;
+  
   }
-  .nav-bar ul {
-    margin-right: auto;
+  
+  .icon{
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    right: 15%;
+    display: block;
+  
+  }
+  
+  .hamburguer{
+    top: 50%;
+    left: 10%;
+    width: 30px;
+    height: 6px;
+    position:absolute ;
+    background-color: #fff;
+    transition:0.5s;
+  }
+  .hamburguer::before{
+    top: -12px;
+    content: '';
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    left: 10%;
+    background-color: #fff;
+    transition:0.5s;
+  }
+  .hamburguer::after{
+    top: 12px;
+    content: '';
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    left: 10%;
+    background-color: #fff;
+    transition:0.5s;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    left: 1%;
+    margin: 25px 0 0 ;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  .list .listItems{
+    padding: 0;
+    flex-direction: column;
+    list-style: none;
 
   }
+  .list .listItems li{
+    margin: 30px;
+    padding: 10px;
+  
   }
+  .list .listItems li a{
+   color: #FFF;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 16px;
+  }
+  .icon.iconActive .hamburguer{
+    background: transparent;
+    
+  }
+  .icon.iconActive .hamburguer::after{
+    top: 0;
+    background: #FFF;
+    transform:rotate(225deg) ;
+    
+  }
+  .icon.iconActive .hamburguer::before{
+  
+    top: 0;
+    background: #FFF;
+    transform:rotate(135deg) ;
+    
+  }
+  .menu.menuOpen{
+   width: 100%;
+  
+   background:  rgba(247, 152, 168, 0.8);
+  }
+  .menu.menuClose{
+    display: none;
+  }
+  
+}
+
