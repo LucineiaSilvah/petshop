@@ -3,29 +3,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 300px 0;
-  background
-  : linear-gradient(45deg,#E3CBC6,#C3B9B7);
+ height: 100vh;
+  background:  url('../../img/cat-love.webp') no-repeat center / cover;
   color:#fff;
- text-shadow: -2px 2px 2px #eb889d;
+
  font-size: 2rem;
 }
 
 .boasVindas__texto{
-  width: 40%;
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  backdrop-filter: blur(15px);
+}
 
-}
-.boasVindas__texto p{
-  font-size: 24px;
-}
-
-.boasVindas__img{
- 
-  width:50%;
-  height: 600px;
-  background:  url('../../img/cat-love.webp') no-repeat center / cover;
-  opacity: 0.8;
-}
 
 
 @media screen and (min-width:0) and (max-width:720px) {
@@ -38,8 +29,9 @@
     width: 100vw;
   }
  .boasVindas__texto{
-  width: 100%;
+  width: 100vw;
   font-size: large;
+  padding: 0;
  }
 
   }
