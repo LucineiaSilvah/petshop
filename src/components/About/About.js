@@ -1,10 +1,9 @@
 import './About.css';
 import sobre from '../../img/sobre.png';
-import Title from '../Title/Title';
+
 function About() {
   return (
     <>
-    <Title texto="Sobre"></Title>
     <div className="sobre" id='sobre'>
     <img src={sobre} alt={sobre} />
     

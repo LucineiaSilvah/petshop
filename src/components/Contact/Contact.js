@@ -1,13 +1,14 @@
 import React from 'react';
 import './Contact.css';
 import contact from '../../img/contact.png';
-import Title from '../Title/Title';
+
 
 function Contact(){
   return (
-   <div>
-     <Title texto="Contato" cor=""></Title>
+   <>
+     
      <section className="contato" id='contact'>
+   
    
         <form>
         
@@ -37,7 +38,7 @@ function Contact(){
    
       <img src={contact} alt='imagem mãos segunrando um celular'/>
      </section>
-   </div>
+   </>
   );
 }
 export default Contact;
