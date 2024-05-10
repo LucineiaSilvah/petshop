@@ -2,7 +2,7 @@ import React from "react";
 import '../Nservices/Services.css'
 import CardServices from "../Cards/Cards_services";
 import banho from '../../img/banho.png';
-import tosa from '../../img/tosa--b.png';
+import tosa from '../../img/bolt.png';
 import passeio from '../../img/passeio.png';
 import Title from "../Title/Title";
 
