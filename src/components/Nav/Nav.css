@@ -86,7 +86,7 @@ font-size: 1.8rem;
   }
   .list .listItems li{
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
   
   }
   .list .listItems li a{
@@ -114,8 +114,8 @@ font-size: 1.8rem;
   }
   .menu.menuOpen{
    width: 100%;
-  
-   background:  rgba(247, 152, 168, 0.8);
+   background:  rgba(247, 152, 168, 0.9);
+   z-index: 5;
   }
   .menu.menuClose{
     display: none;
